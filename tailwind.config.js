@@ -1,7 +1,11 @@
 module.exports = {
-    content: ["./src/**/*.{html,js}"],
-    theme: {
-      extend: {},
-    },
-    plugins: [],
-  }
+	content: ["./public/index.html"],
+	theme: {
+		extend: {
+			fontFamily: {
+				labelle: "'La Belle Aurore', cursive",
+			},
+		},
+	},
+	plugins: [],
+};
